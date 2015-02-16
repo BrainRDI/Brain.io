@@ -1,0 +1,14 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+    <Baker S. Shamlan>  --  <CEO> --  <@masterde>
+    <Riyadh A. Al battat> -- <CIO> -- <@coldMo>
+    <Muath A. Almulla>  --  <COO> --  <@mo_abdul>
+
+# THANKS
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Javascript Configs, Normalize.css
