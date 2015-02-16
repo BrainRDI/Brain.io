@@ -173,6 +173,12 @@ section:nth-child(2n) {
   border-bottom: none;
 }
 
+#menu:click li<a#toggle {
+  border: 1px solid #efefef;
+  border-bottom: none;
+}
+
+
 #menu ul {
   display: none;
   position: absolute;
