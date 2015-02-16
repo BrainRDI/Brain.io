@@ -168,7 +168,7 @@ section:nth-child(2n) {
   z-index: 5;
 }
 
-#menu:hover a#toggle {
+#menu:click a#toggle {
   border: 1px solid #efefef;
   border-bottom: none;
 }
