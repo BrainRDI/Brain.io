@@ -1,10 +1,2 @@
-
-.nide/versions.json
-
-.nide/9dc0e6d4-14e2-4d96-b5f8-0d5933003096
-
-.nide/c0b72b32-0da8-4446-94e0-fbaa58487d45
-
-.nide/2b4606bf-15e5-4292-82af-2260677a9f3b
-
-.nide/213aefb7-9fed-4bc3-8b84-90fca81f3077
+/node_modules/
+.nide/*
