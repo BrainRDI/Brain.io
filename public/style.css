@@ -10,7 +10,7 @@ body, html {
 }
 
 body {
-  font: 17px/1.5 "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  font: 17px/1.5 AtlasTypewriterRegular, 'Andale Mono', Consolas, 'Lucida Console', Menlo, 'Luxi Mono', monospace;
   background: white;
   margin: 0;
   color: #33333d;
@@ -51,17 +51,21 @@ pre {
 
 p {
   font-weight: 300;
-  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  font-family: AtlasTypewriterRegular, 'Andale Mono', Consolas, 'Lucida Console', Menlo, 'Luxi Mono', monospace;
 }
 
 .mono {
   !important;
-  font-family: monospace;
+  font-weight: 300;
+  font-family: AtlasTypewriterRegular, 'Andale Mono', Consolas, 'Lucida Console', Menlo, 'Luxi Mono', monospace;
 }
-
+div#tagline < code {
+  font-size: 4;
+}
 code {
-  font-family: monospace;
-  font-size: 1;
+  font-family: AtlasTypewriterRegular, 'Andale Mono', Consolas, 'Lucida Console', Menlo, 'Luxi Mono', monospace;
+  font-size: 2;
+  font-weight: 500;
 }
 
 h1 {
@@ -221,7 +225,7 @@ section:nth-child(2n) {
   }
 
   #tagline {
-    font-size: 12px;
+    font-size: 22px;
   }
 }
 
