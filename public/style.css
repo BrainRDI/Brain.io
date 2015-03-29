@@ -31,6 +31,7 @@ a {
 section {
   font: 'FixedsysNeo+';
   min-height: 50%;
+  min-width: 100%;
 }
 
 section {
@@ -112,13 +113,14 @@ h5 {
 }*/
 
 section:nth-child(2n) {
-  /*padding: 150px 100px;*/
+  padding: 150px 100px;
   text-align: center;
 }
 
 .content {
   font: 'FixedsysNeo+';
   margin: 0 auto;
+  min-width: %90;
   max-width: 1080px;
   text-align: left;
 }
