@@ -140,8 +140,10 @@ section:nth-child(2n) {
 }
 
 #logo {
-  font: 150px 'FixedsysNeo+';
-  text-transform: ;
+  font: 'FixedsysNeo+';
+  text-transform: capitalize;
+  font-size: 20vw;
+
 }
 #svg {
   Float: center
