@@ -65,8 +65,8 @@ p {
   !important;
   font-weight: 300;
 }
-div#tagline < code {
-  font-size: 4;
+div#tagline {
+  font-size: 4vw;
 }
 code {
   font-size: 2;
