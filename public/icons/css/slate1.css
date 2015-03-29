@@ -4,23 +4,19 @@
   font-weight: normal;
   font-style: normal;
 }
-@font-face {
-  font-family: 'FixedsysNeo+';
-  src: url(icons/font/fixedsysNeo.ttf);
-}
 /* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
 /* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
-/*
+
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
-    font-family: 'slate';
-    src: url('../font/slate.svg?93118699#slate') format('svg');
+    font-family: 'FixedsysNeo+';
+    src: url('../font/fixedsysNeo.ttf');
   }
 }
-*/
+
 
  [class^="icon-"]:before, [class*=" icon-"]:before {
-  font-family: "slate";
+  font-family: "FixedsysNeo+";
   font-style: normal;
   font-weight: normal;
   speak: none;
@@ -49,6 +45,7 @@
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
+
 .icon-cancel:before { content: '\e803'; } /* '' */
 .icon-menu-1:before { content: '\e811'; } /* '' */
 .icon-plus:before { content: '\e804'; } /* '' */

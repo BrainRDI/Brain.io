@@ -1,6 +1,13 @@
 
 * {
   -webkit-box-sizing: border-box;
+  font-family: 'FixedsysNeo+';
+}
+@font-face {
+  font-family: 'FixedsysNeo+';
+  src: url(icons/font/fixedsysNeo.ttf);
+  font-weight: normal;
+  font-style: normal;
 }
 
 body, html {
@@ -10,7 +17,6 @@ body, html {
 }
 
 body {
-  font: 17px/1.5 AtlasTypewriterRegular, 'Andale Mono', Consolas, 'Lucida Console', Menlo, 'Luxi Mono', monospace;
   background: white;
   margin: 0;
   color: #33333d;
@@ -23,6 +29,7 @@ a {
 }
 
 section {
+  font: 'FixedsysNeo+';
   min-height: 50%;
 }
 
@@ -51,19 +58,16 @@ pre {
 
 p {
   font-weight: 300;
-  font-family: AtlasTypewriterRegular, 'Andale Mono', Consolas, 'Lucida Console', Menlo, 'Luxi Mono', monospace;
 }
 
 .mono {
   !important;
   font-weight: 300;
-  font-family: AtlasTypewriterRegular, 'Andale Mono', Consolas, 'Lucida Console', Menlo, 'Luxi Mono', monospace;
 }
 div#tagline < code {
   font-size: 4;
 }
 code {
-  font-family: AtlasTypewriterRegular, 'Andale Mono', Consolas, 'Lucida Console', Menlo, 'Luxi Mono', monospace;
   font-size: 2;
   font-weight: 500;
 }
@@ -103,9 +107,9 @@ h5 {
 
 }
 
-ul li {
+/*ul li {
   font-size: 1.2em;
-}
+}*/
 
 section:nth-child(2n) {
   padding: 150px 100px;
@@ -113,8 +117,9 @@ section:nth-child(2n) {
 }
 
 .content {
+  font: 'FixedsysNeo+';
   margin: 0 auto;
-  max-width: 750px;
+  max-width: 1080px;
   text-align: left;
 }
 
@@ -129,10 +134,11 @@ section:nth-child(2n) {
   margin-top: -150px;
   text-align: center;
   width: 100%;
+
 }
 
 #logo {
-  font: 150px 'Italiana', sans-serif;
+  font: 150px 'FixedsysNeo+';
   text-transform: ;
 }
 #svg {
@@ -143,7 +149,7 @@ section:nth-child(2n) {
 
 
 #tagline {
-  font-size: 16px;
+  font-size: 1.6em;
 }
 
 #menu {
@@ -173,7 +179,7 @@ section:nth-child(2n) {
 }
 
 #menu:click a#toggle {
-  border: 1px solid #efefef;
+  border: 10px solid #efefef;
   border-bottom: none;
 }
 
@@ -210,11 +216,13 @@ section:nth-child(2n) {
 #menu ul li a:hover {
   text-decoration: underline;
 }
-
+/*
 @media screen and (max-width: 700px) {
   section:not(#top) {
     padding: 50px 25px;
   }
+
+}
 
   #heading {
     margin-top: -75px;
@@ -251,32 +259,62 @@ section:nth-child(2n) {
 }
   .footer {
   float: center;
+  font-size: 1.4em;
+  margin-top: 40px;
 
-  }
+}
+
+.contentGroup {
+  font: 'FixedsysNeo+';
+  margin-top: 60px;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.contentIntro {
+  margin-top: 10px;
+  font: 'FixedsysNeo+';
+  display:  block;
+  text-indent: 22px;
+  font-size: 1.4em;
+}
+
 .elementName {
-  font-size: 1em;
+  margin-top: 20px;
+  font: 'FixedsysNeo+';
+  font-size: 1.5em;
   text-align: left;
   font-weight: bold;
 }
 
 .elementDesc {
+  margin-top: 10px;
+  margin-down: 20px;
+  font: 'FixedsysNeo+';
   display:  block;
-  font-size: 0.8em;
+  font-size: 1.4em;
 }
 
-.elementGroup {
-  margin-top: 10px;
-  font-size: 1.5em;
-  font-weight: bold;
+.contentHeader {
+  margin-top: 15px;
+  margin-down: 15px;
+  font: 'FixedsysNeo+';
+  display:  block;
+  font-size: 3em;
 }
 
-.elementSubGroup {
-  margin-top: 10px;
+.contentSection {
+  margin-top: 150px;
+  margin-down:10px;
+  font: 'FixedsysNeo+';
+  display:  block;
+  font-size: 2.5em;
+}
+
+.elementText {
+  margin-top: 30px;
+  margin-down: 20px;
+  font: 'FixedsysNeo+';
+  display:  block;
   font-size: 1.2em;
-  font-weight: bold;
-}
-
-.elementIntro {
-  display:  block;
-  text-indent: 22px;
 }

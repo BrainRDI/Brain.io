@@ -1,0 +1,1 @@
+Baker S. Shamlan Cheif Exetetive OfficerCloud Architecture and Stratigic PlanningRiyadh A. Al Battat Cheif Intelligence OfficerCloud Architecture and Syenthetic Intelliegence algorithemsMuath A. Al Mulla Cheif Operations OfficerResearch development and operation
