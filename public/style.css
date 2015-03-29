@@ -112,7 +112,7 @@ h5 {
 }*/
 
 section:nth-child(2n) {
-  padding: 150px 100px;
+  /*padding: 150px 100px;*/
   text-align: center;
 }
 
