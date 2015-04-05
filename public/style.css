@@ -141,7 +141,7 @@ section:nth-child(2n) {
 
 #logo {
   font: 'FixedsysNeo+';
-  text-transform: capitalize;
+  text-transform: none;
   font-size: 20vw;
 
 }
